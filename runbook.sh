@@ -2,5 +2,4 @@
 
 echo "test"
 
-
-apt-get update && apt-get install apache2 -y
+sudo DEBIAN_FRONTEND=noninteractive apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install apache2 -y
